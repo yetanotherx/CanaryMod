@@ -31,7 +31,7 @@ public class Main {
                 log("-----------------------------");
                 log("jarjar.jar and/or rules.rules are missing!");
                 log("-----------------------------");
-                System.exit(0);
+                System.exit(1);
             }
             checkCRC32("jarjar.jar", jarjar);
             checkCRC32("rules.rules", rules);
